@@ -1,0 +1,2 @@
+rootProject.name = "MovieCatalogueDummyVer"
+include ':app'
