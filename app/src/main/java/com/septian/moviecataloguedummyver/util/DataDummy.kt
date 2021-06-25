@@ -1,7 +1,7 @@
 package com.septian.moviecataloguedummyver.util
 
+import android.graphics.Movie
 import com.septian.moviecataloguedummyver.R
-import com.septian.moviecataloguedummyver.data.FeaturedCrew
 import com.septian.moviecataloguedummyver.data.MovieEntity
 import com.septian.moviecataloguedummyver.data.TvEntity
 
@@ -16,29 +16,7 @@ object DataDummy {
                 R.drawable.poster_a_start_is_born,
                 "October 3, 2018",
                 "75",
-                "https://youtu.be/nSbzyEJ8X9E",
-                listOf(
-                    FeaturedCrew(
-                        "Bradley Cooper",
-                        "Director, Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Will Fetters",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Eric Roth",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Robert Carson",
-                        "Story"
-                    ),
-                    FeaturedCrew(
-                        "William A. Wellman",
-                        "Story"
-                    )
-                )
+                "https://youtu.be/nSbzyEJ8X9E"
             )
         )
 
@@ -51,21 +29,7 @@ object DataDummy {
                 R.drawable.poster_alita,
                 "January 31, 2019",
                 "67",
-                "https://youtu.be/aj8mN_7Apcw",
-                listOf(
-                    FeaturedCrew(
-                        "Robert Rodriguez",
-                        "Director"
-
-                    ), FeaturedCrew(
-                        "Laeta Kalogridis",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "James Cameron",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/aj8mN_7Apcw"
             )
         )
 
@@ -77,32 +41,7 @@ object DataDummy {
                 R.drawable.poster_aquaman,
                 "December 7, 2018",
                 "68",
-                "https://youtu.be/WDkg3h8PCVU",
-                listOf(
-                    FeaturedCrew(
-                        "James Wan",
-                        "Director,Story"
-                    ),
-                    FeaturedCrew(
-                        "Will Beall", "Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Paul Norris",
-                        "Characters"
-                    ),
-                    FeaturedCrew(
-                        "Mort Weisinger",
-                        "Characters"
-                    ),
-                    FeaturedCrew(
-                        "David Leslie Johnson-McGoldrick",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Geoff Johns",
-                        "Story"
-                    )
-                )
+                "https://youtu.be/WDkg3h8PCVU"
             )
         )
 
@@ -114,25 +53,7 @@ object DataDummy {
                 R.drawable.poster_bohemian,
                 "October 24, 2018",
                 "81",
-                "https://youtu.be/HlRd9Zy25zo",
-                listOf(
-                    FeaturedCrew(
-                        "Anthony McCarten",
-                        "Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Bryan Singer",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Dexter Fletcher",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Peter Morgan",
-                        "Story"
-                    )
-                )
+                "https://youtu.be/HlRd9Zy25zo"
             )
         )
 
@@ -144,17 +65,7 @@ object DataDummy {
                 R.drawable.poster_cold_persuit,
                 "February 7, 2019",
                 "54",
-                "https://youtu.be/0phuNQQ_gHI",
-                listOf(
-                    FeaturedCrew(
-                        "Hans Petter Moland", "Director"
-
-                    ),
-                    FeaturedCrew(
-                        "Frank Baldwin",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/0phuNQQ_gHI"
             )
         )
 
@@ -166,21 +77,7 @@ object DataDummy {
                 R.drawable.poster_creed,
                 "November 25, 2015",
                 "73",
-                "https://youtu.be/Uv554B7YHk4",
-                listOf(
-                    FeaturedCrew(
-                        "Ryan Coogler",
-                        "Director, Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Sylvester Stallone",
-                        "Characters"
-                    ),
-                    FeaturedCrew(
-                        "Aaron Covington",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/Uv554B7YHk4"
             )
         )
 
@@ -192,17 +89,7 @@ object DataDummy {
                 R.drawable.poster_crimes,
                 "November 14, 2018",
                 "69",
-                "https://youtu.be/5sEaYB4rLFQ",
-                listOf(
-                    FeaturedCrew(
-                        "David Yates",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "J.K. Rowling",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/5sEaYB4rLFQ"
             )
         )
 
@@ -214,13 +101,7 @@ object DataDummy {
                 R.drawable.poster_glass,
                 "January 16, 2019",
                 "65",
-                "https://youtu.be/95ghQs5AmNk",
-                listOf(
-                    FeaturedCrew(
-                        "M. Night Shyamalan",
-                        "Director, Screenplay"
-                    )
-                )
+                "https://youtu.be/95ghQs5AmNk"
             )
         )
 
@@ -232,17 +113,7 @@ object DataDummy {
                 R.drawable.poster_how_to_train,
                 "January 3, 2019",
                 "76",
-                "https://youtu.be/qNGLuCijKZ0",
-                listOf(
-                    FeaturedCrew(
-                        "Dean DeBlois",
-                        "Director, Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Cressida Cowell",
-                        "Novel"
-                    )
-                )
+                "https://youtu.be/qNGLuCijKZ0"
             )
         )
 
@@ -254,25 +125,7 @@ object DataDummy {
                 R.drawable.poster_infinity_war,
                 "April 25, 2018",
                 "83",
-                "https://youtu.be/sAOzrChqmd0",
-                listOf(
-                    FeaturedCrew(
-                        "Joe Russo",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Anthony Russo",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Stephen McFeely",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Christopher Markus",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/sAOzrChqmd0"
             )
         )
 
@@ -284,17 +137,7 @@ object DataDummy {
                 R.drawable.poster_marry_queen,
                 "December 7, 2018",
                 "66",
-                "https://youtu.be/wnqjSgMU36U",
-                listOf(
-                    FeaturedCrew(
-                        "Josie Rourke",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Beau Willimon",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/wnqjSgMU36U"
             )
         )
 
@@ -306,21 +149,7 @@ object DataDummy {
                 R.drawable.poster_master_z,
                 "December 20, 2018",
                 "52",
-                "https://youtu.be/of1IKuYgj-c",
-                listOf(
-                    FeaturedCrew(
-                        "Yuen Woo-ping",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Chan Tai-Li",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Edmond Wong",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/of1IKuYgj-c"
             )
         )
 
@@ -332,29 +161,7 @@ object DataDummy {
                 R.drawable.poster_mortal_engines,
                 "November 27, 2018",
                 "60",
-                "https://youtu.be/IRsFc2gguEg",
-                listOf(
-                    FeaturedCrew(
-                        "Christian Rivers",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Philip Reeve",
-                        "Novel"
-                    ),
-                    FeaturedCrew(
-                        "Philippa Boyens",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Fran Walsh",
-                        "Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Peter Jackson",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/IRsFc2gguEg"
             )
         )
 
@@ -367,22 +174,7 @@ object DataDummy {
                 R.drawable.poster_overlord,
                 "November 1, 2018",
                 "66",
-                "https://youtu.be/USPd0vX2sdc",
-                listOf(
-                    FeaturedCrew(
-                        "Billy Ray",
-                        "Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Julius Avery",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Mark L. Smith",
-                        "Screenplay"
-                    )
-
-                )
+                "https://youtu.be/USPd0vX2sdc"
             )
         )
 
@@ -394,29 +186,7 @@ object DataDummy {
                 R.drawable.poster_ralph,
                 "November 20, 2018",
                 "72",
-                "https://youtu.be/DIBw9dSVKdU",
-                listOf(
-                    FeaturedCrew(
-                        "Phil Johnston",
-                        "Director, Story, Writer"
-                    ),
-                    FeaturedCrew(
-                        "Rich Moore",
-                        "Director, Story"
-                    ),
-                    FeaturedCrew(
-                        "Pamela Ribon",
-                        "Story, Writer"
-                    ),
-                    FeaturedCrew(
-                        "Josie Trinidad",
-                        "Story"
-                    ),
-                    FeaturedCrew(
-                        "Jim Reardon",
-                        "Story"
-                    )
-                )
+                "https://youtu.be/DIBw9dSVKdU"
             )
         )
 
@@ -428,21 +198,7 @@ object DataDummy {
                 R.drawable.poster_robin_hood,
                 "November 20, 2018",
                 "58",
-                "https://youtu.be/tJfDBSWYqU8",
-                listOf(
-                    FeaturedCrew(
-                        "Ben Chandler",
-                        "Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Otto Bathurst",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "David James Kelly",
-                        "Screenplay"
-                    )
-                )
+                "https://youtu.be/tJfDBSWYqU8"
             )
         )
 
@@ -454,13 +210,7 @@ object DataDummy {
                 R.drawable.poster_serenity,
                 "January 24, 2019",
                 "51",
-                "https://youtu.be/k3zMlsEK8xA",
-                listOf(
-                    FeaturedCrew(
-                        "Steven Knight",
-                        "Director, Screenplay"
-                    )
-                )
+                "https://youtu.be/k3zMlsEK8xA"
             )
         )
 
@@ -472,33 +222,7 @@ object DataDummy {
                 R.drawable.poster_spiderman,
                 "December 6, 2018",
                 "84",
-                "https://youtu.be/ii3n7hYQOl4",
-                listOf(
-                    FeaturedCrew(
-                        "Rodney Rothman",
-                        "Director, Screenplay"
-                    ),
-                    FeaturedCrew(
-                        "Phil Lord",
-                        "Screenplay, Story"
-                    ),
-                    FeaturedCrew(
-                        "Steve Ditko",
-                        "Characters"
-                    ),
-                    FeaturedCrew(
-                        "Stan Lee",
-                        "Characters"
-                    ),
-                    FeaturedCrew(
-                        "Bob Persichetti",
-                        "Director"
-                    ),
-                    FeaturedCrew(
-                        "Peter Ramsey",
-                        "Director"
-                    )
-                )
+                "https://youtu.be/ii3n7hYQOl4"
             )
         )
 
@@ -511,12 +235,7 @@ object DataDummy {
                 "December 27, 2018",
                 "49",
                 "https://youtu.be/Qm_5TYbxgpc",
-                listOf(
-                    FeaturedCrew(
-                        "Aleksey Sidorov",
-                        "Director, Screenplay"
-                    )
-                )
+
             )
         )
         return movies
@@ -533,20 +252,7 @@ object DataDummy {
                 "October 10, 2012",
                 "58",
                 "https://youtu.be/hTv13EjlLNg",
-                listOf(
-                    FeaturedCrew(
-                        "Greg Berlanti",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Marc Guggenheim",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Andrew Kreisberg",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -560,12 +266,7 @@ object DataDummy {
                 "February 15, 2019",
                 "61",
                 "https://youtu.be/6wtGnnLfTqA",
-                listOf(
-                    FeaturedCrew(
-                        "Jeremy Carver",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -578,12 +279,7 @@ object DataDummy {
                 "February 26, 1986",
                 "71",
                 "https://youtu.be/y_0APzy4BcU",
-                listOf(
-                    FeaturedCrew(
-                        "Akira Toriyama",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -596,9 +292,7 @@ object DataDummy {
                 "October 12, 2009",
                 "64",
                 "https://youtu.be/29jsKEZN1ag",
-                listOf(
-                    FeaturedCrew("", "")
-                )
+
             )
         )
 
@@ -611,12 +305,7 @@ object DataDummy {
                 "January 31, 1999",
                 "65",
                 "https://youtu.be/t3VtKdoPIYE",
-                listOf(
-                    FeaturedCrew(
-                        "Seth MacFarlane",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -629,20 +318,7 @@ object DataDummy {
                 "October 7, 2014",
                 "67",
                 "https://youtu.be/Yj0l7iGKh8g",
-                listOf(
-                    FeaturedCrew(
-                        "Geoff Johns",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Andrew Kreisberg",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Greg Berlanti",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -655,16 +331,7 @@ object DataDummy {
                 "April 17, 2011",
                 "81",
                 "https://youtu.be/BpJYNVhGf1s",
-                listOf(
-                    FeaturedCrew(
-                        "David Benioff",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "D. B. Weiss",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -679,12 +346,7 @@ object DataDummy {
                 "September 22, 2014",
                 "69",
                 "https://youtu.be/0d1zpt6k5OI",
-                listOf(
-                    FeaturedCrew(
-                        "Bruno Heller",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -697,12 +359,7 @@ object DataDummy {
                 "March 27, 2005",
                 "62",
                 "https://youtu.be/q1pcpgREQ5c",
-                listOf(
-                    FeaturedCrew(
-                        "Shonda Rhimes",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -715,12 +372,7 @@ object DataDummy {
                 "March 28, 2019",
                 "64",
                 "https://youtu.be/wp6myRLnhAs",
-                listOf(
-                    FeaturedCrew(
-                        "David Farr",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -733,12 +385,7 @@ object DataDummy {
                 "March 17, 2017",
                 "61",
                 "https://youtu.be/QCSPda7xQ3s",
-                listOf(
-                    FeaturedCrew(
-                        "Scott Buck",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -751,9 +398,7 @@ object DataDummy {
                 "February 15, 2007",
                 "75",
                 "https://youtu.be/1WLO0Owi5-A",
-                listOf(
-                    FeaturedCrew("", "")
-                )
+
             )
         )
 
@@ -766,16 +411,7 @@ object DataDummy {
                 "September 23, 2003",
                 "67",
                 "https://youtu.be/VzSsxINwIVE",
-                listOf(
-                    FeaturedCrew(
-                        "Don McGill",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Donald P. Bellisario",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -788,12 +424,7 @@ object DataDummy {
                 "January 26, 2017",
                 "69",
                 "https://youtu.be/9XmFTADupMc",
-                listOf(
-                    FeaturedCrew(
-                        "Roberto Aguirre-Sacasa",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -806,12 +437,7 @@ object DataDummy {
                 "January 9, 2011",
                 "78",
                 "https://youtu.be/CHstRRD_8LE",
-                listOf(
-                    FeaturedCrew(
-                        "Paul Abbott",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -824,20 +450,7 @@ object DataDummy {
                 "October 26, 2015",
                 "58",
                 "https://youtu.be/Mh8MYFadTmQ",
-                listOf(
-                    FeaturedCrew(
-                        "Greg Berlanti",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Andrew Kreisberg",
-                        "Creator"
-                    ),
-                    FeaturedCrew(
-                        "Ali Adler",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -850,12 +463,7 @@ object DataDummy {
                 "September 13, 2005",
                 "73",
                 "https://youtu.be/yy96yJjkvjo",
-                listOf(
-                    FeaturedCrew(
-                        "Eric Kripke",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -868,12 +476,7 @@ object DataDummy {
                 "December 17, 1989",
                 "71",
                 "https://youtu.be/DX1iplQQJTo",
-                listOf(
-                    FeaturedCrew(
-                        "Matt Groening",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -886,12 +489,7 @@ object DataDummy {
                 "February 15, 2019",
                 "77",
                 "https://youtu.be/0DAmWHxeoKw",
-                listOf(
-                    FeaturedCrew(
-                        "Steve Blackman",
-                        "Creator"
-                    )
-                )
+
             )
         )
 
@@ -904,14 +502,11 @@ object DataDummy {
                 "October 31, 2010",
                 "73",
                 "https://youtu.be/R1v0uFms68U",
-                listOf(
-                    FeaturedCrew(
-                        "Frank Darabont",
-                        "Creator"
-                    )
-                )
+
             )
         )
         return tvShows
     }
+
+
 }

@@ -5,8 +5,6 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.septian.moviecataloguedummyver.R
@@ -29,7 +27,6 @@ class DetailTvActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val adapter = DetailMovieAdapter()
 
         val viewModel = ViewModelProvider(
             this,
@@ -39,20 +36,8 @@ class DetailTvActivity : AppCompatActivity() {
         if (extras != null) {
             val tvShowId = extras.getInt(EXTRA_SHOW)
             viewModel.setSelectedTvShow(tvShowId)
-            adapter.setDetail(crew = arrayListOf())
+
             populateTvShow(viewModel.getTv())
-        }
-        with(detailContentDetailMovieBinding.rvDetailCrew) {
-            isNestedScrollingEnabled = false
-            layoutManager = LinearLayoutManager(context)
-            setHasFixedSize(true)
-            this.adapter = adapter
-            val dividerItemDecoration =
-                DividerItemDecoration(
-                    this.context,
-                    DividerItemDecoration.HORIZONTAL
-                )
-            addItemDecoration(dividerItemDecoration)
         }
 
 
@@ -61,7 +46,7 @@ class DetailTvActivity : AppCompatActivity() {
     private fun populateTvShow(tvEntity: TvEntity) {
         detailContentDetailMovieBinding.tvTitle.text = tvEntity.tvShowTitle
         detailContentDetailMovieBinding.tvReleaseDate.text = tvEntity.tvShowRelease
-        detailContentDetailMovieBinding.tvRatingItem.text = tvEntity.tvShowRating
+        detailContentDetailMovieBinding.tvRatingItem.text = tvEntity.tvShowRating.plus("%")
         detailContentDetailMovieBinding.tvDescription.text = tvEntity.tvShowDescription
 
         Glide.with(applicationContext)

@@ -4,11 +4,10 @@ import androidx.lifecycle.ViewModel
 import com.septian.moviecataloguedummyver.data.MovieEntity
 import com.septian.moviecataloguedummyver.data.TvEntity
 import com.septian.moviecataloguedummyver.util.DataDummy
-import kotlin.properties.Delegates
 
 class DetailViewModel : ViewModel() {
-    private var movieId by Delegates.notNull<Int>()
-    private var tvShowId by Delegates.notNull<Int>()
+    private var movieId: Int? = null
+    private var tvShowId: Int? = null
 
     fun setSelectedMovies(movieId: Int) {
         this.movieId = movieId

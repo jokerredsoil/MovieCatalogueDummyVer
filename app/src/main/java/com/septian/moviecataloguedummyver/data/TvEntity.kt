@@ -9,5 +9,5 @@ class TvEntity (
     val tvShowRelease: String?,
     val tvShowRating : String?,
     val tvShowTrailer : String?,
-    val featuredCrew: List<FeaturedCrew>
+
 )
